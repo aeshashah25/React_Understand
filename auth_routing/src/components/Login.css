@@ -1,0 +1,76 @@
+/* Login.css */
+.login-container {
+    background-color: rgba(18, 70, 160, 0.229); /* Semi-transparent background */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #0398fbfa; /* Adjusted color for the heading */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center; /* Center the text horizontally */
+    position: absolute; /* Position it absolutely */
+    top: 30; /* Move it 50% down from the top of the page */
+    left: 50%; /* Move it 50% from the left of the page */
+    transform: translate(-50%, -50%); /* Adjust to center the text exactly */
+    margin-bottom: 250px;
+}
+p{
+    color: #01090efa; /* Adjusted color for the heading */
+    text-align: center; /* Center the text horizontally */
+    position: absolute; /* Position it absolutely */
+    top: 8%;
+    left: 50%; /* Move it 50% from the left of the page */
+    transform: translate(-50%, -50%); /* Adjust to center the text exactly */
+}
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 25px;
+    background-color: rgba(186, 208, 242, 0.652); /* Semi-transparent background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for a soft effect */
+    border-radius: 8px;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: none; /* Removed border */
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: rgba(240, 248, 255, 0.9); /* Light pastel blue background for input fields */
+    color: #333; /* Dark text color */
+}
+
+.input-field:focus {
+    outline: none;
+    background-color: rgba(225, 240, 255, 0.9); /* Very light blue background on focus */
+}
+
+.login-button {
+    padding: 12px;
+    background-color: #85c1e9; /* Light pastel blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-button:hover {
+    background-color: #75a5d1; /* Slightly darker blue on hover */
+}
+
+.login-form p {
+    color: #777; /* Light gray text */
+    font-size: 0.9rem;
+    text-align: center;
+}

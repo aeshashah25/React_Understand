@@ -1,0 +1,22 @@
+/* ProtectedPage.css */
+.protected-container {
+    background-color: #fff;
+    color: #333;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
